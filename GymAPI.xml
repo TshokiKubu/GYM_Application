@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GymAPI</name>
+    </assembly>
+    <members>
+        <member name="M:GymAPI.Controllers.MemberController.GetMembers">
+            <summary>
+              Get list of Members.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GymAPI.Controllers.MemberController.GetMember(System.Int32)">
+            <summary>
+            Get a member
+            </summary>
+            <param name="memberId"> The Id of a member </param>
+            <returns></returns>
+        </member>
+      
+        <member name="M:GymAPI.Controllers.PaymentController.GetPayments">
+            <summary>
+            Get list of payments.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GymAPI.Controllers.PaymentController.GetPayment(System.Int32)">
+            <summary>
+            Get member payment
+            </summary>
+            <param name="paymentId"> The id a payment </param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
